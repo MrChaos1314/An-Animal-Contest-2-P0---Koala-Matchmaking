@@ -20,7 +20,7 @@ public class Main {
 
         long favouriteNumber = Long.parseLong(st.nextToken());
 
-        long average = Math.round((favouriteNumber + (favouriteNumber - 2)) / 2);
+        long average = (favouriteNumber + (favouriteNumber - 2)+1) / 2;
 
         return String.valueOf(average);
     }
